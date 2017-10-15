@@ -7,24 +7,24 @@ class groups
   {
     'sysadmin': 
     ensure = > present,
-    gid = > '500',
+    gid = > '700',
   }
   group 
   {
     'cars': 
     ensure = > present,
-    gid = > '501',
+    gid = > '701',
   }
   group 
   {
     'trucks': 
     ensure = > present,
-    gid = > '502',
+    gid = > '702',
   }
   group 
   {
     'ambulances': 
     ensure = > present,
-    gid = > '503',
+    gid = > '703',
   }
 }
