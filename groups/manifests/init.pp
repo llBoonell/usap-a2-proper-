@@ -13,17 +13,18 @@ class groups
   {
     'cars': 
     ensure = > present,
-    gid = > '500',
+    gid = > '501',
   }
   group 
   {
     'trucks': 
     ensure = > present,
-    gid = > '500',
+    gid = > '502',
   }
   group 
   {
     'ambulances': 
     ensure = > present,
-    gid = > '500',
+    gid = > '503',
   }
+}
