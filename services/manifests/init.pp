@@ -8,7 +8,6 @@ class services
     ensure => 'directory',
     owner  => 'root',
     mode   => '0644',
-    #Should be 777? Need to double check
   }
   
   # Replace existing Apache httpd.conf with customised version
